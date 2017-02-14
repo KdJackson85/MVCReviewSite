@@ -1,0 +1,76 @@
+﻿@model MVC_Review_Site_Project.Models.Review
+    <
+        
+    
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container navbar-header">
+        a m e r i c a n | w o l v e s.
+    </div>
+</nav>
+
+<h2 class="details">Details</h2>
+
+<div>
+    <h4 class="review">Review</h4>
+    <hr />
+    <div class="detailsBody">
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.Genre.Genre)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Genre.Genre)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Artist)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Artist)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Album)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Album)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.AlbumReview)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.AlbumReview)
+            </dd>
+            @*<dt>
+                    @Html.DisplayNameFor(model => model.QuickReview)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.QuickReview)
+                </dd>*@
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Rating)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Rating)
+            </dd>
+
+        </dl>
+    </div>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

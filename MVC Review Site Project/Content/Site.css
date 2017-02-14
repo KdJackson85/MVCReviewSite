@@ -1,12 +1,14 @@
 ﻿body {
-    padding-top: 50px;
-    padding-bottom: 20px;
+    padding-top:50px;
+    padding-bottom:20px;
+    background-color:#000000;
 }
 
 /* Set padding to keep content from hitting the edges */
 .body-content {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 2px;
+    padding-right: 2px;
+    
 }
 
 /* Override the default bootstrap behavior where horizontal description lists 
@@ -22,3 +24,168 @@ select,
 textarea {
     max-width: 280px;
 }
+/*Header*/
+h2.Title{
+     text-align:center;
+     font-family:Sansita;
+     font-size:80px;
+     color:#ffffff;
+     text-space-collapse:collapse;
+     text-anchor:middle;
+     text-shadow: 4px 4px #606060;
+     background-image:url(http://media-cache-ak0.pinimg.com/736x/70/db/31/70db3193927220f16d1f74551f722fdd.jpg);
+     background-size:auto;
+     padding-bottom:10px;
+     
+}
+
+h2.details{
+    font-family:Sansita;
+    font-size:80px;
+    color:#ffffff;
+    text-space-collapse:collapse;
+    text-anchor:middle;
+    text-shadow: 4px 2px #606060;
+    background-image:url(http://media-cache-ak0.pinimg.com/736x/70/db/31/70db3193927220f16d1f74551f722fdd.jpg);
+
+}
+/*Inside details view. h4 text.*/
+h4.review{
+    color:white;
+    font-family:Sansita;
+    text-align:left;
+}
+
+img {
+    align-content:center;
+    height:100px;
+    width:100px;
+    margin-left: auto;
+    bottom:10px;
+    margin-bottom:0px;
+    display:inline-block;
+                
+}
+
+.detailsBody{
+    color:white;
+}
+
+/*Whole Cell*/
+.thumbnail .caption{
+    white-space:normal;
+    vertical-align: baseline;
+    border-radius: 0px;
+    background-color:white;
+    border-radius:0px;
+    margin:0px;
+    background-color:white;
+    display:block;
+}
+
+
+h4.tagline{
+    text-align:center;
+    font-family:'Colors Of Autumn';
+    font-size:17px;
+    opacity:.8;
+    color:#f78b2f;
+   
+}
+
+
+
+/*Artists Name*/
+.UserName{
+    font-family:'Colors Of Autumn';
+    text-anchor:middle;
+    text-shadow: 1px 1px #000000;
+    font-size:30px;
+    font-weight:bolder;
+    color:#f78b2f;
+}
+
+/*Album Title*/
+p#albumtitle{
+
+    font-family:Sansita;
+    text-anchor:middle;
+    font-size:22px;
+    font-weight:bolder;
+    color:black;
+}
+
+/*Priority button*/
+.label {
+    display: inline;
+    font-size: 75%;
+    font-weight:lighter;
+    line-height: 1;
+    color: black;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+    background-color:white;
+}
+
+/*Details Button*/
+.btn-default {
+    font-family:Oxygen;
+    color: black;
+    background-color:white;
+    border-color:#000000;
+    border-radius:0px;
+    font-weight:bold;
+}
+
+.panel-body{
+    font-family:'Proxima Nova Alt';
+    text-anchor:middle;
+    text-align:center;
+    font-size:18px;
+    font-weight:bolder;
+    color:#171717;
+   
+
+}
+
+.panel-footer{
+   
+    padding: 2px 4px 4px 2px;
+    margin:1px;
+    border:3px groove;
+    border-color:#f78b2f;
+
+}
+
+.panel-nametext{
+    font-family:'Proxima Nova Alt';
+    text-anchor:middle;
+    text-align:center;
+    font-size:15px;
+    font-weight:lighter;
+    color:#171717;
+
+}
+
+.container.navbar-header{
+    font-family:'Proxima Nova ScOsf';
+    font-size:16px;
+    text-align:right;
+    margin-top:5px;
+    padding-top:20px;
+    padding-bottom:20px;
+    position:static;
+    
+
+    
+
+    
+
+}
+
+
+
+
+
